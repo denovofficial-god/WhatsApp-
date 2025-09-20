@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peringatan Keamanan Digital</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .header {
+            background-color: #128C7E;
+            padding: 30px 20px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header .icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        
+        .content {
+            padding: 30px 20px;
+        }
+        
+        .warning {
+            background-color: #ffe6e6;
+            border-left: 5px solid #ff4d4d;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+            border-radius: 5px;
+        }
+        
+        .message {
+            font-size: 18px;
+            margin: 20px 0;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        .emoji {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 15px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">📱</div>
+            <h1>WhatsApp Security Alert</h1>
+        </div>
+        
+        <div class="content">
+            <div class="emoji">😳</div>
+            <div class="message">
+                <strong>Wah, hampir saja tertipu!</strong>
+            </div>
+            
+            <div class="warning">
+                <strong>PERINGATAN KEAMANAN:</strong> Aplikasi palsu sering digunakan untuk mencuri data pribadi, pesan, dan informasi sensitif Anda.
+            </div>
+            
+            <div class="message">
+                Jangan pernah mengunduh aplikasi dari sumber yang tidak terpercaya. Selalu gunakan toko aplikasi resmi seperti Google Play Store atau Apple App Store.
+            </div>
+            
+            <button class="button" onclick="showMoreInfo()">Pelajari Lebih Lanjut</button>
+        </div>
+        
+        <div class="footer">
+            <p>© 2023 Edukasi Keamanan Digital. Aplikasi ini dibuat untuk tujuan edukasi.</p>
+        </div>
+    </div>
+
+    <script>
+        function showMoreInfo() {
+            alert("Tips Keamanan Digital:\n\n1. Selunduh aplikasi dari sumber resmi\n2. Periksa izin yang diminta aplikasi\n3. Perhatikan ulasan dan peringkat aplikasi\n4. Gunakan autentikasi dua faktor\n5. Update aplikasi secara berkala");
+        }
+        
+        // Tambahkan efek saat membuka aplikasi
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                alert("YA ORANG GILA NGEBUKA APK FAKE WKWKWK 😝\n\nIni hanyalah simulasi edukasi!");
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
